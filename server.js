@@ -18,3 +18,7 @@ app.listen(PORT, () => {
 app.get("/", (_, res) => {
   res.send(`Server is started`);
 });
+
+app.use("/api/auth", require("./routes/auth"));
+app.use("/api/users", require("./routes/users"));
+app.use("/api/products", require("./routes/products"));
