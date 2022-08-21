@@ -47,11 +47,11 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logoutUser }) => {
   );
   return (
     <nav className="navbar bg-dark">
-      <h1>
+      <h3>
         <Link to="/">
           <i className="fas fa-shopping-basket"></i> {"  "}Grocery App
         </Link>
-      </h1>
+      </h3>
       {isAuthenticated ? authLinks : guestLinks}
     </nav>
   );

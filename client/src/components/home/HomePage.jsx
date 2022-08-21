@@ -7,8 +7,15 @@ const HomePage = () => {
   SwiperCore.use([Autoplay]);
   return (
     <>
-      <Ads />
-      <ProductCategory />
+      <div>
+        <Ads />
+      </div>
+
+      <div className="row">
+        <div className="col-12 m-2 ">
+          <ProductCategory />
+        </div>
+      </div>
     </>
   );
 };

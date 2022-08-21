@@ -4,12 +4,12 @@ function FoodStoreCard() {
   return (
     <div id="food-store-card-page">
       <div className="card" style={{ width: "18rem" }}>
-        <div className="p-5 offers">20% OFF</div>
+        <div className="p-2 offers">20% OFF</div>
         <img
           src={
             "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/images/products/sliding_image/3493a.jpg"
           }
-          className="card-img-top card-image"
+          className="card-img-top card-image product-img-slide"
           alt="..."
         />
         <div className="card-body">

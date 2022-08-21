@@ -23,7 +23,7 @@ const Ads = () => {
             alt=""
           />
         </SwiperSlide>
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <Link to="/refer">
             <img
               width="90%"
@@ -31,7 +31,7 @@ const Ads = () => {
               alt=""
             />
           </Link>
-        </SwiperSlide>
+        </SwiperSlide> */}
         <SwiperSlide>
           <img
             width="90%"
