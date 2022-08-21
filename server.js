@@ -15,10 +15,6 @@ app.listen(PORT, () => {
   console.log(`listening on port ${PORT}`);
 });
 
-app.get("/", (_, res) => {
-  res.send(`Server is started`);
-});
-
 //Serve static assets in production
 if (process.env.NODE_ENV === "production") {
   //Set a static folder
