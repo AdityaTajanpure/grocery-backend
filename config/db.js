@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const config = require("config");
 
 const connectToMongo = async () => {
-  let dbUri = config.get("mongoURI");
+  let dbUri = process.env.MONGO_URI;
   try {
     await mongoose.connect(dbUri, {
       dbName:
